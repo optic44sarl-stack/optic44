@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Optic 44 - نظارات طبية وشمسية</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }body {
+  background-color: #f8f8f8;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #111, #444);
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffd54f;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #ffd54f;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('lunette.jpg') center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ffd54f;
+  color: black;
+  padding: 12px 22px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #ffca28;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 15px 0 10px;
+}
+
+.card p {
+  padding: 0 15px;
+  color: #555;
+}
+
+.about, .contact {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  padding: 30px;
+}
+
+.contact p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  header {
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+}
+
+  </style>
+</head>
+<body>  <header>
+    <div class="logo">Optic 44</div>
+    <nav>
+      <a href="#home">الرئيسية</a>
+      <a href="#products">المنتجات</a>
+      <a href="#about">من نحن</a>
+      <a href="#contact">اتصل بنا</a>
+    </nav>
+  </header>  <section class="hero" id="home">
+    <h1>مرحبا بكم في Optic 44</h1>
+    <p>نظارات طبية وشمسية بأناقة وجودة عالية</p>
+    <a href="#products" class="btn">شاهد المنتجات</a>
+  </section>  <section id="products">
+    <h2 class="section-title">منتجاتنا</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="product1.jpg" alt="نظارات طبية" />
+        <h3>نظارات طبية</h3>
+        <p>تشكيلة عصرية ومريحة تناسب جميع الأذواق.</p>
+      </div><div class="card">
+    <img src="product2.jpg" alt="نظارات شمسية" />
+    <h3>نظارات شمسية</h3>
+    <p>أناقة وحماية للعين مع تصاميم جذابة.</p>
+  </div>
+
+  <div class="card">
+    <img src="product3.jpg" alt="نظارات أطفال" />
+    <h3>نظارات الأطفال</h3>
+    <p>خفيفة ومريحة مع ألوان وتصاميم جميلة.</p>
+  </div>
+</div>
+
+  </section>  <section id="about">
+    <h2 class="section-title">من نحن</h2>
+    <div class="about">
+      <p>
+        Optic 44 متجر متخصص في النظارات الطبية والشمسية، نقدم لزبنائنا الجودة، الأناقة،
+        والخدمة الممتازة. هدفنا هو مساعدتك على اختيار النظارة المناسبة لك بكل راحة وثقة.
+      </p>
+    </div>
+  </section>  <section id="contact">
+    <h2 class="section-title">اتصل بنا</h2>
+    <div class="contact">
+      <p><strong>الهاتف:</strong> 0705519810</p>
+      <a href="https://wa.me/212705519810"class="btn">تواصل معنا عبر واتساب</a>
+      <p><strong>شارع سيدي سعيد قرب المدار الطرقي:</strong> بيوكرى - Optic 44</p>
+      <p><strong>البريد الإلكتروني:</strong> optic44sarl@gmail.com</p>
+    </div>
+  </section>  <footer>
+    <p>© 2026 Optic 44 - جميع الحقوق محفوظة</p>
+  </footer></body>
+</html>
+                
