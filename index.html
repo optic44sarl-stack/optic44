@@ -153,7 +153,26 @@ footer {
   }
 }
 
-  </style>
+  .cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
 </head>
 <body>  <header>
     <div class="logo">Optic 44</div>
@@ -173,8 +192,9 @@ footer {
       <div class="card">
         <img src="medical.jpg" alt="نظارات طبية" />
         <h3>نظارات طبية</h3>
-        <p>تشكيلة عصرية ومريحة تناسب جميع الأذواق.</p>
-      </div><div class="card">
+        <p>تخفيضات حتى 30%</p>
+      </div>
+    <div class="card">
     <img src="sun.jpg" alt="نظارات شمسية" />
     <h3>نظارات شمسية</h3>
     <p>أناقة وحماية للعين مع تصاميم جذابة.</p>
